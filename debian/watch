@@ -1,0 +1,3 @@
+version=3
+http://sf.net/byaccj/byaccj(.+)_src\.tar.gz \
+ debian uupdate

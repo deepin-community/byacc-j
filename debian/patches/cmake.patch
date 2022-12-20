@@ -1,0 +1,19 @@
+--- /dev/null
++++ b/CMakeLists.txt
+@@ -0,0 +1,6 @@
++cmake_minimum_required(VERSION 2.6)
++
++PROJECT(BYACCJ)
++
++ADD_SUBDIRECTORY(src)
++#ADD_SUBDIRECTORY(test)
+--- /dev/null
++++ b/src/CMakeLists.txt
+@@ -0,0 +1,7 @@
++include_directories (.)
++
++set(byaccj_SRC closure.c lalr.c mkpar.c lr0.c skeleton.c verbose.c main.c symtab.c warshall.c
++ defs.h output.c error.c reader.c)
++add_executable(byaccj ${byaccj_SRC})
++
++install(TARGETS byaccj RUNTIME DESTINATION bin LIBRARY DESTINATION lib)

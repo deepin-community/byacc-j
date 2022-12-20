@@ -1,0 +1,12 @@
+byacc-j (1.15-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Mon, 14 Nov 2022 17:35:30 +0800
+
+byacc-j (1.15-1) unstable; urgency=low
+
+  * Initial release (closes: 532933)
+
+ -- Ludovic Claude <ludovic.claude@laposte.net>  Wed, 13 May 2009 20:59:05 +0100
+
