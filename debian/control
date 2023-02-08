@@ -3,7 +3,7 @@ Maintainer: Ludovic Claude <ludovic.claude@laposte.net>
 Section: devel
 Priority: extra
 Standards-Version: 3.8.1
-Build-Depends: debhelper (>= 6), cdbs, quilt, cmake (>= 2.6)
+Build-Depends: debhelper (>= 7), cdbs, quilt, cmake (>= 2.6)
 Vcs-Bzr: lp:~ludovicc/uj/byacc-j
 Vcs-Browser: http://bazaar.launchpad.net/~ludovicc/uj/byacc-j/files
 Homepage: http://byaccj.sourceforge.net/
